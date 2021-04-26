@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Contatos </title>
+        <link rel="stylesheet" href="style.css" type="text/css" >
+        <script src="criarcontato.js"></script>
+
+    </head>
+    <body>
+        
+        <a href="http://www.meuscontatos.com/criarcontato"> Criar novo contato </a><br>
+        <a href="http://www.meuscontatos.com/alterarcontato"> Alterar contato </a>
+
+        <!-- Título da pág + descrição do que se trata -->
+        <center><p><h2><b> Criar contato </b></h2> 
+            <br>
+            <h4>Informe abaixo todos os dados necessários para criar um novo contato.</h4></p></center>
+
+        <center><div>
+            <form action=" Contatos " method="POST">
+                
+                <fieldset><br>
+
+                    <!-- Informações pessoais relevantes ao cadastro, ambos estão centralizados na página,
+                    com os devidos exemplos -->
+
+                    <label><b> Nome completo: </b></label>
+                    <input type="text" name=" Nome " placeholder=" Digite nome completo"> 
+                    <br><br>
+
+                    <label><b>  Telefone celular: </b></label>
+                    <input type="text" name="Telefone" placeholder="Ex:(DDD) 90000-0000">
+                    <br> <br>
+
+                    <label><b> Telefone fixo:   </b></label>
+                    <input type="tel" name="Telefone fixo" placeholder="Ex:(DDD) 0000-0000">
+                    <br><br>
+
+                    <label><b>  E-mail:     </b></label>
+                    <input type="email" name="E-mail" placeholder="E-mail address">
+                    <br> <br>
+
+                    <label><b> Grupo:     </b></label>
+                    <input type="text" name="Grupo" placeholder="Ex:trabalho, escola, igreja...">
+                    <br> <br>
+
+                    <input type="submit" value="Salvar" name="submit" >
+                    <br> <br>
+                </fieldset>
+            </form>    
+        </div></center>
+
+    </body>
+    </html>

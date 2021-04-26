@@ -1,0 +1,17 @@
+html{ background-color: rgb(199, 245, 233);}
+
+p{ height: 18px;}
+
+fieldset{   border-color: rgb(7, 5, 129);
+            background-color: rgb(168, 248, 221);
+            width: 500px;
+            left: 400px;}
+
+label{  color: black;
+        position: absolute;
+        left: 470px;}
+
+input{  background-color: rgb(245, 253, 251);
+        left: 900px;
+        height: 19px;}
+
